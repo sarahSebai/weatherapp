@@ -1,0 +1,12 @@
+# Ignorer les dossiers d'IDE
+.vscode/
+
+# Ignorer node_modules 
+node_modules/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers d'environnement
+.env
