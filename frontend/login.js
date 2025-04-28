@@ -6,7 +6,7 @@ document.querySelector('#register').addEventListener('click', function () {
 		password: document.querySelector('#registerPassword').value,
 	}
 
-	fetch('http://localhost:3000/users/signup', {
+	fetch('https://weatherapp-1-iopr.onrender.com/signup', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(user),
@@ -25,7 +25,7 @@ document.querySelector('#connection').addEventListener('click', function () {
 		password: document.querySelector('#connectionPassword').value,
 	}
 
-	fetch('http://localhost:3000/users/signin', {
+	fetch('https://weatherapp-1-iopr.onrender.com/signin', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(user),
